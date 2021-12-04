@@ -1,7 +1,14 @@
-LaMa_models/
-LaMa_test_images/
-LaMa_test_outputs/
-pretrained/
+LaMa_models/*
+!LaMa_models/.gitignore
+
+LaMa_test_images/*
+!LaMa_test_images/.gitignore
+
+LaMa_test_outputs/*
+!LaMa_test_outputs/.gitignore
+
+pretrained/*
+!pretrained/.gitignore
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
